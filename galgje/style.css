@@ -1,0 +1,108 @@
+html {
+    background-color: cornflowerblue;
+}
+
+.head {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+div.startbutton {
+    display: flex;
+    justify-content: center;
+}
+
+button.startbutton {
+    display: flex;
+    justify-content: center;
+    border: solid, rgb(255, 102, 0);
+    background-color: darkolivegreen;
+    border-radius: 200px;
+    border-color: rgb(24, 187, 3);
+    color: ghostwhite;
+}
+
+.phpGalgWoord {
+    display: flex;
+    justify-content: center;
+    color: orangered;
+}
+
+.start {
+    border: solid, rgb(255, 102, 0);
+    background-color: rgb(51, 255, 0);
+    border-radius: 200px;
+    border-color: rgb(0, 75, 0);
+    color: rgb(0, 0, 0);
+}
+
+.textinput {
+    border-radius: 200px;
+    border-color: crimson;
+    text-align: center;
+}
+
+.zelf {
+    border: solid, rgb(255, 102, 0);
+    background-color: rgb(51, 255, 0);
+    border-radius: 200px;
+    border-color: rgb(0, 75, 0);
+    color: rgb(0, 0, 0);
+}
+
+.will {
+    border: solid, rgb(255, 102, 0);
+    background-color: rgb(0, 75, 0);
+    border-color: rgb(51, 255, 0);
+    border-radius: 200px;
+    color: ghostwhite;
+}
+/*
+.lijn {
+    font-size: 50px;
+    display: inline;
+}
+*/
+
+.letters {
+    display: flex;
+    justify-content: center;
+    flex-direction: wrap;
+}
+
+.Gewonnen {
+    text-align: center;
+    color: lawngreen;
+    text-shadow: green;
+}
+.Verloren {
+    text-align: center;
+    color: red;
+    text-shadow: maroon;
+}
+.mid {
+    display: inline-block;
+    width: 55%;
+}
+.right {
+    display: inline-block;
+    width: 44%;
+}
+.right img {
+    width: 50%;
+}
