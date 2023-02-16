@@ -27,7 +27,7 @@ session_start();
         }
 
         if (isset($_COOKIE["woord"])) {
-            echo ("Je hebt") . " '" . $_COOKIE["woord"] . "' " . "gekozen om mee te spelen!";
+            echo ("Je hebt") . " " . $_COOKIE["woord"] . " gekozen om mee te spelen!";
         }
         ?>
     </h2>

@@ -42,7 +42,7 @@
                 setcookie("woord", "", time() - 3600);
                 setcookie("characters", "", time() - 3600);
                 setcookie("mistakes", "", time() - 3600);
-                header("Location: galgje.php");
+                header("Location: index.php");
             }
         }
         $woordKarakters = str_split($_COOKIE['woord']);
@@ -80,10 +80,10 @@
         }
 
         if ($won) {
-            echo '<br>' . '<h1 class="Gewonnen">Je hebt gewonnen</h1>';
+            echo '<br> <h1 class="Gewonnen">Je hebt gewonnen</h1>';
         }
         if ($lose) {
-            echo '<br>' . '<h1 class="Verloren">Je hebt verloren</h1>';
+            echo '<br> <h1 class="Verloren">Je hebt verloren</h1>';
             echo "<br><h3 class='Verloren'> Het woord was " . $_COOKIE['woord'];
         }
 
@@ -135,28 +135,25 @@
     <div class="right">
         <?php
         if ($foutenteller === 0) {
-            echo ('<img id="dood" src="fout2.png">');
+            echo ('<img id="dood" src="0.jpg">');
         }
         if ($foutenteller === 1) {
-            echo ('<img id="dood" src="fout4.png">');
+            echo ('<img id="dood" src="1.jpg">');
         }
         if ($foutenteller === 2) {
-            echo ('<img id="dood" src="fout5.png">');
+            echo ('<img id="dood" src="2.jpg">');
         }
         if ($foutenteller === 3) {
-            echo ('<img id="dood" src="fout6.png">');
+            echo ('<img id="dood" src="3.jpg">');
         }
         if ($foutenteller === 4) {
-            echo ('<img id="dood" src="fout7.png">');
+            echo ('<img id="dood" src="4.jpg">');
         }
         if ($foutenteller === 5) {
-            echo ('<img id="dood" src="fout8.png">');
+            echo ('<img id="dood" src="5.jpg">');
         }
         if ($foutenteller === 6) {
-            echo ('<img id="dood" src="fout9.png">');
-        }
-        if ($foutenteller === 7) {
-            echo ('<img id="dood" src="END.png">');
+            echo ('<img id="dood" src="6.jpg">');
         }
         ?>
 

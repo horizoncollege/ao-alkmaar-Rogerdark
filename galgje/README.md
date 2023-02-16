@@ -1,0 +1,1 @@
+  Dit is onze versie van galgje. Je start het spel doormidddel van het bestand galgje.php te openen. Dan kan je kiezen uit twee keuzes Een willekeurig woord of een zelf verzonnen woord. Veel plezier met onze versie van galgje :).
